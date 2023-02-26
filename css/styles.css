@@ -55,16 +55,19 @@ body {
 .site-nav .link {
   text-decoration: none;
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
 }
 .site-nav .link:active,
-.site-nav .link:focus {
+.site-nav .link:focus,
+.site-nav .link:hover {
   color: var(--accent-color);
 }
 .address .link {
   text-decoration: none;
   color: var(--address-color);
   font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -176,5 +179,5 @@ body {
 .button-portfolio:hover,
 .button-portfolio:focus {
   color: var(--backgroun-color);
-  background: var(--accent-color);
+  background-color: var(--accent-color);
 }
