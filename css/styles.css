@@ -72,7 +72,8 @@ body {
   line-height: 1.5;
 }
 .address .link:active,
-.address .link:focus {
+.address .link:focus,
+.address .link:hover {
   color: var(--accent-color);
 }
 
@@ -160,7 +161,8 @@ body {
   cursor: pointer;
 }
 .hero .button:hover,
-.hero .button:focus {
+.hero .button:focus,
+.hero .button:active {
   background-color: var(--accent-color);
 }
 .button-portfolio {
@@ -177,7 +179,8 @@ body {
 }
 
 .button-portfolio:hover,
-.button-portfolio:focus {
+.button-portfolio:focus,
+.button-portfolio:active {
   color: var(--backgroun-color);
   background-color: var(--accent-color);
 }
